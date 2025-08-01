@@ -6,18 +6,18 @@ export const ServiceExplanation = () => {
   const services = [
     {
       icon: <Zap className="w-8 h-8 text-accent" />,
-      title: "Performance Optimization",
-      description: "We supercharge your site speed, fix technical issues, and optimize for mobile to keep visitors engaged."
+      title: "Technische Optimalisatie",
+      description: "Wij versnellen je website, lossen technische problemen op en zorgen voor perfecte weergave op alle apparaten."
     },
     {
       icon: <Target className="w-8 h-8 text-accent" />,
-      title: "Conversion Enhancement",
-      description: "We redesign key pages, improve user flow, and add proven elements that turn visitors into customers."
+      title: "Professionele Uitstraling",
+      description: "We verbeteren je design, optimaliseren de gebruikerservaring en zorgen dat je expertise direct opvalt."
     },
     {
       icon: <Shield className="w-8 h-8 text-accent" />,
-      title: "Modern Refresh",
-      description: "We update your design with current trends, better UX, and professional touches that build trust."
+      title: "Moderne Vernieuwing",
+      description: "We brengen je website up-to-date met huidige trends en professionele elementen die vertrouwen wekken."
     }
   ];
 
@@ -28,10 +28,10 @@ export const ServiceExplanation = () => {
           {/* Section header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Why Upgrade Instead of Rebuild?
+              Waarom upgraden in plaats van opnieuw beginnen?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Starting fresh is expensive and time-consuming. We work with what you have and make it exceptional.
+              Een nieuwe website is duur en tijdrovend. Wij werken met wat je hebt en maken het uitzonderlijk.
             </p>
           </div>
           
@@ -56,16 +56,16 @@ export const ServiceExplanation = () => {
           <div className="bg-gradient-subtle rounded-2xl p-8 md:p-12">
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">50%</div>
-                <div className="text-muted-foreground">Average cost savings vs new build</div>
+                <div className="text-4xl font-bold text-primary mb-2">1 week</div>
+                <div className="text-muted-foreground">Maximale levertijd</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">2-3x</div>
-                <div className="text-muted-foreground">Faster project completion</div>
+                <div className="text-4xl font-bold text-primary mb-2">3x</div>
+                <div className="text-muted-foreground">Sneller dan nieuwbouw</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">85%</div>
-                <div className="text-muted-foreground">Improvement in conversion rates</div>
+                <div className="text-4xl font-bold text-primary mb-2">200+</div>
+                <div className="text-muted-foreground">Tevreden professionals</div>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ export const ServiceExplanation = () => {
           {/* CTA */}
           <div className="text-center mt-12">
             <Button variant="cta" size="lg">
-              Start Your Upgrade Today
+              Start je upgrade vandaag
               <ArrowRight className="w-5 h-5" />
             </Button>
           </div>

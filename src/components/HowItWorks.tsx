@@ -6,20 +6,20 @@ export const HowItWorks = () => {
     {
       icon: <Search className="w-8 h-8 text-accent" />,
       step: "01",
-      title: "Free Audit",
-      description: "We analyze your current site and identify exactly what needs improvement for maximum impact."
+      title: "Analyse",
+      description: "We bekijken je huidige website en identificeren precies wat er verbeterd moet worden voor maximale impact."
     },
     {
       icon: <Wrench className="w-8 h-8 text-accent" />,
       step: "02", 
-      title: "Strategic Upgrade",
-      description: "We enhance your design, optimize performance, and add conversion elements that actually work."
+      title: "Strategische Upgrade",
+      description: "We verbeteren je design, optimaliseren de prestaties en zorgen dat je expertise professioneel overkomt."
     },
     {
       icon: <Rocket className="w-8 h-8 text-accent" />,
       step: "03",
-      title: "Launch & Results",
-      description: "Your upgraded site goes live with better performance, higher conversions, and happier visitors."
+      title: "Oplevering",
+      description: "Je geüpgradede website gaat live met betere prestaties, professionele uitstraling en meer impact."
     }
   ];
 
@@ -30,10 +30,10 @@ export const HowItWorks = () => {
           {/* Section header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              How It Works
+              Hoe het werkt
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Our proven 3-step process delivers results in weeks, not months
+              Ons bewezen 3-stappen proces levert resultaat binnen 1 week
             </p>
           </div>
           
@@ -69,8 +69,8 @@ export const HowItWorks = () => {
           {/* Timeline */}
           <div className="bg-card rounded-2xl p-8 shadow-soft">
             <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold text-foreground mb-2">Typical Timeline</h3>
-              <p className="text-muted-foreground">From audit to launch</p>
+              <h3 className="text-2xl font-bold text-foreground mb-2">Typische planning</h3>
+              <p className="text-muted-foreground">Van analyse tot oplevering</p>
             </div>
             
             <div className="grid md:grid-cols-4 gap-4 text-center">
@@ -78,29 +78,29 @@ export const HowItWorks = () => {
                 <div className="w-8 h-8 bg-success rounded-full flex items-center justify-center mb-2">
                   <CheckCircle className="w-5 h-5 text-success-foreground" />
                 </div>
-                <div className="text-sm font-medium text-foreground">Day 1-2</div>
-                <div className="text-xs text-muted-foreground">Free Audit</div>
+                <div className="text-sm font-medium text-foreground">Dag 1</div>
+                <div className="text-xs text-muted-foreground">Analyse</div>
               </div>
               <div className="flex flex-col items-center">
                 <div className="w-8 h-8 bg-warning rounded-full flex items-center justify-center mb-2">
                   <div className="w-3 h-3 bg-warning-foreground rounded-full"></div>
                 </div>
-                <div className="text-sm font-medium text-foreground">Week 1-2</div>
+                <div className="text-sm font-medium text-foreground">Dag 2-3</div>
                 <div className="text-xs text-muted-foreground">Planning & Design</div>
               </div>
               <div className="flex flex-col items-center">
                 <div className="w-8 h-8 bg-accent rounded-full flex items-center justify-center mb-2">
                   <div className="w-3 h-3 bg-accent-foreground rounded-full"></div>
                 </div>
-                <div className="text-sm font-medium text-foreground">Week 2-3</div>
-                <div className="text-xs text-muted-foreground">Development</div>
+                <div className="text-sm font-medium text-foreground">Dag 4-6</div>
+                <div className="text-xs text-muted-foreground">Ontwikkeling</div>
               </div>
               <div className="flex flex-col items-center">
                 <div className="w-8 h-8 bg-success rounded-full flex items-center justify-center mb-2">
                   <Rocket className="w-5 h-5 text-success-foreground" />
                 </div>
-                <div className="text-sm font-medium text-foreground">Week 3-4</div>
-                <div className="text-xs text-muted-foreground">Launch</div>
+                <div className="text-sm font-medium text-foreground">Dag 7</div>
+                <div className="text-xs text-muted-foreground">Oplevering</div>
               </div>
             </div>
           </div>
